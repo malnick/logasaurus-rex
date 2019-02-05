@@ -1,0 +1,15 @@
+[package]
+name = "logasaurus-rex"
+version = "0.1.0"
+authors = ["malnick <malnick@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+tokio = "0.1.15"
+clap = "2"
+serde = "1.0"
+serde_derive = "1.0"
+serde_yaml = "0.8"
+serde_json = "1.0"
+elastic = "0.20.10"
+elastic_derive = "0.20.10"
